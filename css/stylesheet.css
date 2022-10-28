@@ -10,28 +10,28 @@
 }
 
 .carousel-item:nth-child(1) {
-  background-image: url("/Users/juniajacinto/Desktop/Cande_Lopez_Web/img/jobs-one/residential-two.jpeg");
+  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-two.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-  background-image: url("/Users/juniajacinto/Desktop/Cande_Lopez_Web/img/jobs-two/Troth-swimming-pool-8.jpeg");
+  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-two/Troth-swimming-pool-8.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(3) {
-  background-image: url("/Users/juniajacinto/Desktop/Cande_Lopez_Web/img/jobs-one/Schaumburg-swimming-pool-5.jpeg");
+  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/jobs-one/Schaumburg-swimming-pool-5.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .carousel-item:nth-child(4) {
-  background-image: url("/Users/juniajacinto/Desktop/Cande_Lopez_Web/img/jobs-one/residential-three.jpeg");
+  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-three.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

@@ -1,4 +1,19 @@
- 
+/* Carousel styling for Carrousel  */
+.carousel .carousel-item {
+
+  background: rgba(149, 133, 95, 0.3);
+
+}
+
+.carousel-item img {
+
+    opacity: 0.2;
+
+}
+
+
+
+
 
 /* Carousel styling for Index Page */
 #introCarousel,

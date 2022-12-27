@@ -1,212 +1,254 @@
 /* Carousel styling for Carrousel  */
 .carousel .carousel-item {
 
-  background: rgba(149, 133, 95, 0.3);
+    background: rgba(149, 133, 95, 0.3);
+  
+  }
+  
+  .carousel-item img {
+  
+      opacity: 0.2;
+  
+  }
+  
+  
+  
+  
+  
+  /* Carousel styling for Index Page */
+  #introCarousel,
+  .carousel-inner,
+  .carousel-item,
+  
+  .carousel-item.active {
+    height: 100vh;
+  }
+  
+  .carousel-item:nth-child(1) {
+    background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-two.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-item:nth-child(2) {
+    background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-two/Troth-swimming-pool-8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-item:nth-child(3) {
+    background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web//img/jobs-one/Schaumburg-swimming-pool-5.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .carousel-item:nth-child(4) {
+    background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-three.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
 
-}
-
-.carousel-item img {
-
-    opacity: 0.2;
-
-}
-
-
-
-
-
-/* Carousel styling for Index Page */
-#introCarousel,
-.carousel-inner,
-.carousel-item,
-
-.carousel-item.active {
-  height: 100vh;
-}
-
-.carousel-item:nth-child(1) {
-  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-two.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(2) {
-  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-two/Troth-swimming-pool-8.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(3) {
-  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web//img/jobs-one/Schaumburg-swimming-pool-5.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-.carousel-item:nth-child(4) {
-  background-image: url("https://juniajacinto7.github.io/Cande_Lopez_Web/img/jobs-one/residential-three.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-}
-
-/* Sidebar for Index Page*/
-.sidebar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  padding: 58px 0 0; /* Height of navbar */
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-  width: 240px;
-  z-index: 600;
-}
-
-@media (max-width: 991.98px) {
+  .design-firm-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .design-firm-text a {
+    color: #0066cc;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .design-firm-text a:hover {
+    color: #003399;
+    text-decoration: underline;
+  }
+  
+  .design-firm-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  .design-firm-text p {
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+  
+  .design-firm-text ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .design-firm-text li {
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Sidebar for Index Page*/
   .sidebar {
-    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+    width: 240px;
+    z-index: 600;
   }
-}
-.sidebar .active {
-  border-radius: 5px;
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-}
-
-.sidebar-sticky {
-  position: relative;
-  top: 0;
-  height: calc(100vh - 48px);
-  padding-top: 0.5rem;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-}
-/* Sidebar */
-
-
-/* Portfolio Page Buttons */     
-.button-portfolio {
-  color: #8f8a80;
-  border:1px solid #f4b64b;
-}     
-
-
-/* History Page Timeline */
-/* The actual timeline (the vertical ruler) */
-.main-timeline-2 {
-  position: relative;
-}
-
-/* The actual timeline (the vertical ruler) */
-.main-timeline-2::after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  background-color: #f4b64b;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-
-/* Container around content */
-.timeline-2 {
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-
-/* The circles on the timeline */
-.timeline-2::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -11px;
-  background-color: #f4b64b;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-/* Place the container to the left */
-.left-2 {
-  padding: 0px 40px 20px 0px;
-  left: 0;
-}
-
-/* Place the container to the right */
-.right-2 {
-  padding: 0px 0px 20px 40px;
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left-2::before {
-  content: " ";
-  position: absolute;
-  top: 18px;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right-2::before {
-  content: " ";
-  position: absolute;
-  top: 18px;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right-2::after {
-  left: -14px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 100%;
+    }
+  }
+  .sidebar .active {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  /* Sidebar */
+  
+  
+  /* Portfolio Page Buttons */     
+  .button-portfolio {
+    color: #8f8a80;
+    border:1px solid #f4b64b;
+  }     
+  
+  
+  /* History Page Timeline */
+  /* The actual timeline (the vertical ruler) */
+  .main-timeline-2 {
+    position: relative;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
   .main-timeline-2::after {
-    left: 31px;
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-color: #f4b64b;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
   }
-
-  /* Full-width containers */
+  
+  /* Container around content */
   .timeline-2 {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
   }
-
-  /* Make sure that all arrows are pointing leftwards */
-  .timeline-2::before {
-    left: 60px;
+  
+  /* The circles on the timeline */
+  .timeline-2::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -11px;
+    background-color: #f4b64b;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left-2 {
+    padding: 0px 40px 20px 0px;
+    left: 0;
+  }
+  
+  /* Place the container to the right */
+  .right-2 {
+    padding: 0px 0px 20px 40px;
+    left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left-2::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right-2::before {
+    content: " ";
+    position: absolute;
+    top: 18px;
+    z-index: 1;
+    left: 30px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
-
-  /* Make sure all circles are at the same spot */
-  .left-2::after,
+  
+  /* Fix the circle for containers on the right side */
   .right-2::after {
-    left: 18px;
+    left: -14px;
   }
-
-  .left-2::before {
-    right: auto;
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 600px) {
+    /* Place the timelime to the left */
+    .main-timeline-2::after {
+      left: 31px;
+    }
+  
+    /* Full-width containers */
+    .timeline-2 {
+      width: 100%;
+      padding-left: 70px;
+      padding-right: 25px;
+    }
+  
+    /* Make sure that all arrows are pointing leftwards */
+    .timeline-2::before {
+      left: 60px;
+      border: medium solid white;
+      border-width: 10px 10px 10px 0;
+      border-color: transparent white transparent transparent;
+    }
+  
+    /* Make sure all circles are at the same spot */
+    .left-2::after,
+    .right-2::after {
+      left: 18px;
+    }
+  
+    .left-2::before {
+      right: auto;
+    }
+  
+    /* Make all right containers behave like the left ones */
+    .right-2 {
+      left: 0%;
+    }
   }
-
-  /* Make all right containers behave like the left ones */
-  .right-2 {
-    left: 0%;
-  }
-}
-
-      
+  
+        

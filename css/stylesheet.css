@@ -10,6 +10,19 @@
       opacity: 0.2;
   
   }
+
+  .bg-video {
+    object-fit: cover;
+    width:100vw;
+    height:95vh;
+   
+}
+
+.background-pic {
+  object-fit: cover;
+  width: 100vw;
+  height: 95vh;
+}
   
   
   
@@ -21,7 +34,7 @@
   .carousel-item,
   
   .carousel-item.active {
-    height: 100vh;
+    height: 90vh;
   }
   
   .carousel-item:nth-child(1) {
@@ -51,80 +64,9 @@
     background-size: cover;
     background-position: center center;
   }
+  
+  
 
-  .design-firm-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    color: #333333;
-    line-height: 1.5;
-    text-align: center;
-  }
-  
-  .design-firm-text a {
-    color: #0066cc;
-    text-decoration: none;
-    transition: all 0.3s ease;
-  }
-  
-  .design-firm-text a:hover {
-    color: #003399;
-    text-decoration: underline;
-  }
-  
-  .design-firm-text h1 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-  }
-  
-  .design-firm-text p {
-    margin-bottom: 20px;
-    line-height: 2;
-  }
-  
-  .design-firm-text ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .design-firm-text li {
-    margin-bottom: 10px;
-  }
-  
-  
-  /* Sidebar for Index Page*/
-  .sidebar {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    padding: 58px 0 0; /* Height of navbar */
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
-    width: 240px;
-    z-index: 600;
-  }
-  
-  @media (max-width: 991.98px) {
-    .sidebar {
-      width: 100%;
-    }
-  }
-  .sidebar .active {
-    border-radius: 5px;
-    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
-  }
-  
-  .sidebar-sticky {
-    position: relative;
-    top: 0;
-    height: calc(100vh - 48px);
-    padding-top: 0.5rem;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  }
-  /* Sidebar */
   
   
   /* Portfolio Page Buttons */     
